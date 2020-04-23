@@ -1,7 +1,7 @@
 # Robotany
 Automated Gardening System
 
-# Parts
+## Parts
 
 * Raspberry Pi zero
 * 12V solenoid water valve
