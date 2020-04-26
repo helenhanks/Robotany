@@ -17,6 +17,9 @@ Automated Gardening System
 ### Set up Raspberry Pi Zero W
 Install SD card with Raspian into Pi, connect mouse, keyboard and monitor and power. Follow instructions to select language, keyboard layout and timezone.
 
+### Set Static IP Address
+Follow the instructions here: https://www.raspberrypi.org/forums/viewtopic.php?p=1500626
+
 ### Enable VNC server
 1. Open command prompt
 2. Type **sudo raspi-config**
@@ -26,3 +29,5 @@ Install SD card with Raspian into Pi, connect mouse, keyboard and monitor and po
 ### Connect to VNC Server
 1. Obtain IP address from Raspberry Pi by typing **ifconfig wlan0** (or **ifconfig eth0** if connected to the network via ethernet).
 2. Install a VNC client on your other device and use the IP address from above, username and password. (Default username = pi, password = raspberry). A VNC viewer can be dowloaded from here: https://www.realvnc.com/en/connect/download/viewer/
+
+
