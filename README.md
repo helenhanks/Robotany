@@ -10,7 +10,7 @@ Automated Gardening System
 
 ## Important steps
 
-### Install Raspian
+### Install Raspian onto SD Card
 1. Dowload Raspberry Pi Imager from https://www.raspberrypi.org/downloads/
 2. Launch Raspberry Pi Imager and follow instructions to install Raspian on an SD card
 
