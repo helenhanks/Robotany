@@ -18,7 +18,9 @@ Automated Gardening System
 Install SD card with Raspian into Pi, connect mouse, keyboard and monitor and power. Follow instructions to select language, keyboard layout and timezone.
 
 ### Set Static IP Address
-Follow the instructions here: https://www.raspberrypi.org/forums/viewtopic.php?p=1500626
+Note: I still haven't got this to work yet, Was folllowing a combination of instructions from these two links:
+https://www.raspberrypi.org/forums/viewtopic.php?p=1500626
+https://howtoraspberrypi.com/how-to-raspberry-pi-headless-setup/
 
 ### Enable VNC server
 1. Open command prompt
