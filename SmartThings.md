@@ -20,7 +20,8 @@ curl -H "Authorization: Bearer _api-token_" -X PUT "_api-endpoint_/switches/on"
 #### Turn off
 curl -H "Authorization: Bearer _api-token_" -X PUT "_api-endpoint_/switches/off"
   
-## Python Code
+## Python Code 
+(note: Markdown messes up the formating, check raw code)
 #### Turn on
 import requests
 
