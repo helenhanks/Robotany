@@ -6,8 +6,12 @@ https://docs.smartthings.com/en/latest/smartapp-web-services-developers-guide/tu
 #### Utility to convert from curl to python
 https://curl.trillworks.com/
 
-##Set up SMart Things Account and Develop APP
-https://account.smartthings.com/
+##Set up Smart Things Account and Develop APP
+1. Go to https://account.smartthings.com/
+2. Set up an account
+3. Add smart device and set up location
+4. Go to My Smart Apps and make a web app
+5. Use endpoint, token, oath etc to send commands from whatever script to your new app's API
 
 ## Command line code
 #### Turn on
