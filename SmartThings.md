@@ -15,10 +15,10 @@ https://curl.trillworks.com/
 
 ## Command line code
 #### Turn on
-curl -H "Authorization: Bearer <api token>" -X PUT "<api endpoint>/switches/on"
+curl -H "Authorization: Bearer _api-token_" -X PUT "_api-endpoint_/switches/on"
 
 #### Turn off
-curl -H "Authorization: Bearer <api token>" -X PUT "<api endpoint>/switches/off"
+curl -H "Authorization: Bearer _api-token_" -X PUT "_api-endpoint_/switches/off"
   
 ## Python Code
 #### Turn on
