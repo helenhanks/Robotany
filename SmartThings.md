@@ -2,10 +2,10 @@
 #### Smart Things API Documentation
 https://docs.smartthings.com/en/latest/
 
-### Tutorial on Creating API Endpoint
+#### Tutorial on Creating API Endpoint
 https://docs.smartthings.com/en/latest/smartapp-web-services-developers-guide/tutorial-part1.html
 
-### Utility to convert from curl to python
+#### Utility to convert from curl to python
 https://curl.trillworks.com/
 
 ### Command line code
