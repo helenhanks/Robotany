@@ -28,13 +28,13 @@ headers = {
     'Authorization': 'Bearer <api token>',
 }
 
-response = requests.put('https://graph-na04-useast2.api.smartthings.com/api/smartapps/installations/<api endpoint>/switches/on', headers=headers)
+response = requests.put('https://graph-na04-useast2.api.smartthings.com/api/smartapps/installations/_api-endpoint_/switches/on', headers=headers)
   
 #### Turn Off
 import requests
 
 headers = {
-    'Authorization': 'Bearer <api token>',
+    'Authorization': 'Bearer _api-token_',
 }
 
-response = requests.put('https://graph-na04-useast2.api.smartthings.com/api/smartapps/installations/<api endpoint>/switches/off', headers=headers)
+response = requests.put('https://graph-na04-useast2.api.smartthings.com/api/smartapps/installations/_api-endpoint_/switches/off', headers=headers)
