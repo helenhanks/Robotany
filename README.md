@@ -42,6 +42,7 @@ Type **pinout** in a terminal window to get a handy diagram. You'll need:
 * A 3.3V pin
 * A ground pin
 * Any other GPIO pin for the signal to the relay
+Read https://www.raspberrypi.org/documentation/usage/gpio for more information about pins.
 
 ### Write Python Code to Control Relay
 At a minimum it should contain these commands (I used pin 8):
