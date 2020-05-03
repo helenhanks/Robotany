@@ -4,7 +4,7 @@ Automated Gardening System
 ## Parts
 
 * Raspberry Pi Zero W
-* SRD-05VDC-SL-C 5V relay or equivalent
+* SRD-03VDC-SL-C 3V relay or equivalent
 * 12V solenoid water valve
 * 12V Power supply
 * Mains power socket or extension lead
@@ -37,5 +37,13 @@ https://howtoraspberrypi.com/how-to-raspberry-pi-headless-setup/
 ### Assemble Power System
 Diagram to follow
 
-### Write Code to Control Relay
-Code to follow
+### Write Python Code to Control Relay
+At a minimum it should contain these commands (I used pin 8):
+
+import RPi.GPIO as GPIO
+GPIO.setmode(GPIO.BOARD)
+GPIO.setup(8, GPIO.OUT)
+GPIO.output(8, True)
+GPIO.output(8, False)
+
+
