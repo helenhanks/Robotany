@@ -35,7 +35,7 @@ https://howtoraspberrypi.com/how-to-raspberry-pi-headless-setup/
 2. Install a VNC client on your other device and use the IP address from above, username and password. (Default username = pi, password = raspberry). A VNC viewer can be dowloaded from here: https://www.realvnc.com/en/connect/download/viewer/
 
 ### Decide which pins to use
-Type *pinout* in a terminal window to get a handy diagram
+Type **pinout** in a terminal window to get a handy diagram
 
 ### Assemble Power System
 Diagram to follow
