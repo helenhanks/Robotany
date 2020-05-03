@@ -40,9 +40,11 @@ Diagram to follow
 ### Write Python Code to Control Relay
 At a minimum it should contain these commands (I used pin 8):
 
+Set up the pin:
 * import RPi.GPIO as GPIO
 * GPIO.setmode(GPIO.BOARD)
 * GPIO.setup(8, GPIO.OUT)
+Turn pin on and off:
 * GPIO.output(8, True)
 * GPIO.output(8, False)
 
