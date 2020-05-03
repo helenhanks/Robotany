@@ -34,11 +34,14 @@ https://howtoraspberrypi.com/how-to-raspberry-pi-headless-setup/
 1. Obtain IP address from Raspberry Pi by typing **ifconfig wlan0** (or **ifconfig eth0** if connected to the network via ethernet).
 2. Install a VNC client on your other device and use the IP address from above, username and password. (Default username = pi, password = raspberry). A VNC viewer can be dowloaded from here: https://www.realvnc.com/en/connect/download/viewer/
 
-### Decide which pins to use
-Type **pinout** in a terminal window to get a handy diagram
-
 ### Assemble Power System
-Diagram to follow
+Diagram to follow. Refer to https://www.circuitbasics.com/setting-up-a-5V-relay-on-the-arduino/ for a rough idea.
+
+### Decide which pins to use
+Type **pinout** in a terminal window to get a handy diagram. You'll need:
+* A 3.3V pin
+* A ground pin
+* Any other GPIO pin for the signal to the relay
 
 ### Write Python Code to Control Relay
 At a minimum it should contain these commands (I used pin 8):
