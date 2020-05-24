@@ -4,6 +4,7 @@ Automated Gardening System
 ## Parts
 
 * Raspberry Pi Zero W
+<img src = "images/rpi_zero.jpg" width = 200>
 
 * SRD-03VDC-SL-C 3V relay board or equivalent
 <img src = "images/relays.jpg" width = 200>
@@ -17,12 +18,14 @@ Automated Gardening System
 * 12V Power supply
 
 * Length of cable suitable for carrying 12V from where the pi will be located to the solendoid valve
+<img src = "images/12v_cable.jpg" width = 200>
 
 * Mains power socket or extension lead with space for two power supplies that is suitable for outdoor use
 
 * Plug suitable for use outdoors
 
-* Outdoor weatherproof Project box
+* Outdoor weatherproof Enclosure
+<img src = "images/enclosure.jpg" width = 200>
 
 * Fittings to connect solenoid valve and water hammer arrestor to your garden faucet and hospipe.
 
