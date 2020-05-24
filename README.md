@@ -21,11 +21,11 @@ Automated Gardening System
 * Length of cable suitable for carrying 12V from where the pi will be located to the solendoid valve
 <img src = "images/12v_cable.jpg" width = 200>
 
-* Mains power socket or extension lead with space for two power supplies that is suitable for outdoor use
+* Weather resistant mains power socket with at least two outlets
 <img src = "images/power_outlet.jpg" width = 200>
 <img src = "images/wall_box.jpg" width = 200>
 
-* Plug suitable for use outdoors
+* Mains cable and plug suitable for use outdoors
 
 * Outdoor weatherproof Enclosure
 <img src = "images/enclosure.jpg" width = 200>
