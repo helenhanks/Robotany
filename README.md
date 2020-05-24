@@ -108,3 +108,6 @@ Turn pin on and off:
 
 ### Set up Pi to Run Script on Bootup
 Haven't figured out how to do this yet.
+
+### Connect Solenoid Valve and Water Hammer Arrestor to Garden Faucet/Hose System
+You'll probably need a trip to your favourite hardware store to find the right combination of adaptors and fittings. It's not pretty!
