@@ -22,6 +22,8 @@ Automated Gardening System
 <img src = "images/12v_cable.jpg" width = 200>
 
 * Mains power socket or extension lead with space for two power supplies that is suitable for outdoor use
+<img src = "images/power_outlet.jpg" width = 200>
+<img src = "images/wall_box.jpg" width = 200>
 
 * Plug suitable for use outdoors
 
