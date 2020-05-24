@@ -16,6 +16,7 @@ Automated Gardening System
 <img src = "images/water_hammer_arrestor.jpg" width = 200>
 
 * 12V Power supply
+<img src = "images/12v_power_supply.jpg" width = 200>
 
 * Length of cable suitable for carrying 12V from where the pi will be located to the solendoid valve
 <img src = "images/12v_cable.jpg" width = 200>
