@@ -1,5 +1,5 @@
 # Robotany
-Automated Gardening System
+Automated Garden Watering System
 
 ## Parts
 
