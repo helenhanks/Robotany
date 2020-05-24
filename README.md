@@ -71,15 +71,21 @@ Read https://www.raspberrypi.org/documentation/usage/gpio for more information a
 _Make sure everything is powered down including 12V power supply before doing this step!_
 
 1) Use jumper cables to hook up the Raspberry Pi pins to the Relay Module terminals
+
 3.3V pin on Pi goes to VCC terminal on relay board
+
 Ground pin on Pi goes to GND terminal on relay board
+
 GPIO pin on Pi goes to VCC terminal on relay board
 
 2) Cut the end of the 12v power supply cable and strip it
 3) Cut both ends off the 12v extension cable and strip it
 4) Connect 12v power supply to 12v extension cable and relay module
+
 Ground wire from 12V power supply gets connected to return wire of 12V cable to solenoid.
+
 Live wire from 12V power supply goes to COM terminal on relay board.
+
 Live wire from 12V cable to solenoid goes to NO terminal on relay board.
 
 Diagram to follow. Refer to https://www.circuitbasics.com/setting-up-a-5V-relay-on-the-arduino/ for a rough idea.
