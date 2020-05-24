@@ -26,6 +26,7 @@ Automated Gardening System
 <img src = "images/wall_box.jpg" width = 200>
 
 * Mains cable and plug suitable for use outdoors
+<img src = "images/extension_chord.jpg" width = 200>
 
 * Outdoor weatherproof Enclosure
 <img src = "images/enclosure.jpg" width = 200>
