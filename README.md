@@ -92,8 +92,8 @@ Turn pin on and off:
 * GPIO.output(8, True)
 * GPIO.output(8, False)
 
-### Install Everything in Project Box
-Once you have tested everything and you are satisfied, you can install everything in the project box for real.
+### Install Everything in Project Enclosure
+Once you have tested everything and you are satisfied, you can install everything in the project enclosure for real.
 
 1) Drill two holes in the bottom side of the box, one for the mains power cable and one for the 12V cable.
 2) Install power socket into project box an connect it up with cable through the hole you just drilled, and plug suitable for outdoors. Be sure to arrange it in the box such that the 12V power supply and Raspberry Pi power supply will fit when plugged in and the box lid is closed.
