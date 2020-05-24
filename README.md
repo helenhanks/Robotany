@@ -6,7 +6,7 @@ Automated Gardening System
 * Raspberry Pi Zero W
 * SRD-03VDC-SL-C 3V relay board or equivalent
 * 12V solenoid water valve
-
+<img src = "images/solenoid_water_valve.jpg" width = 200>
 ![](images/solenoid_water_valve.jpg)
 * Water hammer arrestor
 * 12V Power supply
