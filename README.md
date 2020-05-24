@@ -67,18 +67,32 @@ Type **pinout** in a terminal window to get a handy diagram. You'll need:
 
 Read https://www.raspberrypi.org/documentation/usage/gpio for more information about pins.
 
-### Hook Up Cables on Bench
+### Install Components and Wiring in Project Enclosure
 _Make sure everything is powered down including 12V power supply before doing this step!_
 
+1) Use jumper cables to hook up the Raspberry Pi pins to the Relay Module terminals
 3.3V pin on Pi goes to VCC terminal on relay board
 Ground pin on Pi goes to GND terminal on relay board
 GPIO pin on Pi goes to VCC terminal on relay board
 
+2) Cut the end of the 12v power supply cable and strip it
+3) Cut both ends off the 12v extension cable and strip it
+4) Connect 12v power supply to 12v extension cable and relay module
 Ground wire from 12V power supply gets connected to return wire of 12V cable to solenoid.
 Live wire from 12V power supply goes to COM terminal on relay board.
 Live wire from 12V cable to solenoid goes to NO terminal on relay board.
 
 Diagram to follow. Refer to https://www.circuitbasics.com/setting-up-a-5V-relay-on-the-arduino/ for a rough idea.
+
+5) Drill two holes in the bottom side of the box, one for the mains power cable and one for the 12V cable.
+6) Cut off the outlet part of the extension cord, and strip the wire ends.
+7) Install power socket into project box an connect it up with cable you just stripped through the hole you just drilled. Be sure to arrange the outlet in the box such that the 12V power supply and Raspberry Pi power supply will fit when plugged in and the box lid is closed.
+6) Lay out the Raspberry Pi Zero and relay and attach to box.
+7) Feed the 12V cable through the second hole so it can later be attached to the solenoid valve.
+8) Finish reconnecting any remaining wires.
+9) Seal up the holes in the project box using grommets if you are fancy, or silicone sealant if you are not.
+10) Mount box to wall and close
+11) Fit solenoind valve and water hammer arrestor directly downsteam of it.
 
 ### Write/Install Python Code to Control Relay
 At a minimum it should contain these commands (I used pin 8):
@@ -91,18 +105,6 @@ Set up the pin:
 Turn pin on and off:
 * GPIO.output(8, True)
 * GPIO.output(8, False)
-
-### Install Everything in Project Enclosure
-Once you have tested everything and you are satisfied, you can install everything in the project enclosure for real.
-
-1) Drill two holes in the bottom side of the box, one for the mains power cable and one for the 12V cable.
-2) Install power socket into project box an connect it up with cable through the hole you just drilled, and plug suitable for outdoors. Be sure to arrange it in the box such that the 12V power supply and Raspberry Pi power supply will fit when plugged in and the box lid is closed.
-3) Lay out the Raspberry Pi Zero and relay and attach to box.
-4) Feed the 12V cable through the second hole so it can later be attached to the solenoid valve.
-5) Finish reconnecting any remaining wires.
-6) Seal up the holes in the project box using grommets if you are fancy, or silicone sealant if you are not.
-7) Mount box to wall and close
-8) Fit solenoind valve and water hammer arrestor directly downsteam of it.
 
 ### Set up Pi to Run Script on Bootup
 Haven't figured out how to do this yet.
