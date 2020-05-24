@@ -99,7 +99,7 @@ Once you have tested everything and you are satisfied, you can install everythin
 2) Install power socket into project box an connect it up with cable through the hole you just drilled, and plug suitable for outdoors. Be sure to arrange it in the box such that the 12V power supply and Raspberry Pi power supply will fit when plugged in and the box lid is closed.
 3) Lay out the Raspberry Pi Zero and relay and attach to box.
 4) Feed the 12V cable through the second hole so it can later be attached to the solenoid valve.
-5) Finishe reconnecting any remaining wires.
+5) Finish reconnecting any remaining wires.
 6) Seal up the holes in the project box using gromits if you are fancy, or silicone sealant if you are not.
 7) Mount box to wall and close
 8) Fit solenoind valve and water hammer arresor directly downsteam of it.
