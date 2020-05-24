@@ -102,7 +102,7 @@ Once you have tested everything and you are satisfied, you can install everythin
 5) Finish reconnecting any remaining wires.
 6) Seal up the holes in the project box using grommets if you are fancy, or silicone sealant if you are not.
 7) Mount box to wall and close
-8) Fit solenoind valve and water hammer arresor directly downsteam of it.
+8) Fit solenoind valve and water hammer arrestor directly downsteam of it.
 
 ### Set up Pi to Run Script on Bootup
 Haven't figured out how to do this yet.
