@@ -24,7 +24,7 @@ Automated Gardening System
 * Weather resistant mains power outlet with at least two outlets
 <img src = "images/power_outlet.jpg" width = 200>
 
-* Wall box for power outlet above
+* Wall box for power outlet above 
 <img src = "images/wall_box.jpg" width = 200>
 
 * Mains cable and plug suitable for use outdoors
