@@ -1,7 +1,7 @@
 # Robotany
 Automated Garden Watering System.
 
-Note: This project is not affiliated with the company Fifth Season which was founded as RoBotany. It is also not related to several other projects on Github with the repositary name Robotany.
+Note: This project is not affiliated with the company Fifth Season which was founded as RoBotany Ltd. It is also not related to several other projects on Github with the repositary name Robotany.
 
 ## Parts
 
