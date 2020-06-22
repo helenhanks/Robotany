@@ -85,7 +85,8 @@ sudo apt-get update
 sudo apt-get install rpi.gpio
 
 ### Write/Install Python Code to Control Relay
-At a minimum it should contain these commands (I used pin 8):
+You can use RobotanyMain.py - it is ready to go, or you can write your own.
+At a minimum the script should contain these commands (in this example I used pin 8):
 
 Set up the pin:
 * import RPi.GPIO as GPIO
