@@ -1,5 +1,13 @@
 # Robotany
-Automated Garden Watering System.
+Automated Garden Watering System. The basic system just waters the garden once per day on a schedule and all the code is stored in robotanymain.py
+
+I am working on some optional extras but they are not integrated into the main script yet:
+
+* Query the weather API to see if it is going to rain
+* Send a push notification to a second Pi with a database to log if the job was completed
+* Create a "watchdog" application to make sure the Pi Zero is always running and connected
+* Build a weather station so see if it did in fact rain during the previous day
+* Incorporate a water barrel with level detection and auto-filling
 
 Note: This project is not affiliated with the company Fifth Season which was founded as RoBotany Ltd. It is also not related to several other projects on Github with the repositary name Robotany.
 
@@ -69,6 +77,27 @@ Type **pinout** in a terminal window to get a handy diagram. You'll need:
 
 Read https://www.raspberrypi.org/documentation/usage/gpio for more information about pins.
 
+### Install required packages
+From the command line run the following commands to install the packages required:
+
+sudo apt-get update
+sudo apt-get install rpi.gpio
+
+### Write/Install Python Code to Control Relay
+At a minimum it should contain these commands (I used pin 8):
+
+Set up the pin:
+* import RPi.GPIO as GPIO
+* GPIO.setmode(GPIO.BOARD)
+* GPIO.setup(8, GPIO.OUT)
+
+Turn pin on and off:
+* GPIO.output(8, True)
+* GPIO.output(8, False)
+
+### Set up Pi to Run Script on Bootup
+Haven't figured out how to do this yet.
+
 ### Install Components and Wiring in Project Enclosure
 _Make sure everything is powered down including 12V power supply before doing this step!_
 
@@ -95,21 +124,6 @@ Diagram to follow. Refer to https://www.circuitbasics.com/setting-up-a-5V-relay-
 9) Seal up the holes in the project box using grommets if you are fancy, or silicone sealant if you are not.
 10) Mount box to wall and close
 11) Fit solenoind valve and water hammer arrestor directly downsteam of it.
-
-### Write/Install Python Code to Control Relay
-At a minimum it should contain these commands (I used pin 8):
-
-Set up the pin:
-* import RPi.GPIO as GPIO
-* GPIO.setmode(GPIO.BOARD)
-* GPIO.setup(8, GPIO.OUT)
-
-Turn pin on and off:
-* GPIO.output(8, True)
-* GPIO.output(8, False)
-
-### Set up Pi to Run Script on Bootup
-Haven't figured out how to do this yet.
 
 ### Connect Solenoid Valve and Water Hammer Arrestor to Garden Faucet/Hose System
 You'll probably need a trip to your favourite hardware store to find the right combination of adaptors and fittings. It's not pretty!
