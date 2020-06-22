@@ -8,6 +8,7 @@ I am working on some optional extras but they are not integrated into the main s
 * Create a "watchdog" application to make sure the Pi Zero is always running and connected
 * Build a weather station so see if it did in fact rain during the previous day
 * Incorporate a water barrel with level detection and auto-filling
+* Use SmartThings API to control a smart plug connected to the solenoid valve, rather than putting a raspberry pi and relay outside
 
 Note: This project is not affiliated with the company Fifth Season which was founded as RoBotany Ltd. It is also not related to several other projects on Github with the repositary name Robotany.
 
