@@ -1,5 +1,5 @@
 # Robotany
-Automated Garden Watering System. The basic system just waters the garden once per day on a schedule and all the code is stored in robotanymain.py
+Automated Garden Watering System. The basic system just waters the garden once per day on a schedule and all the code is stored in RobotanyMain.py
 
 I am working on some optional extras but they are not integrated into the main script yet:
 
