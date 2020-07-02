@@ -1,7 +1,8 @@
 # Robotany
-Automated Garden Watering System. The basic system just waters the garden once per day on a schedule and all the code is stored in RobotanyMain.py
 
-I am working on some optional extras but they are not integrated into the main script yet:
+Automated Garden Watering System. The basic system just waters the garden once per day on a schedule and all the code is stored in `RobotanyMain.py`.
+
+## Optional features that are not integrated into the main script yet:
 
 * Query the weather API to see if it is going to rain
 * Send a push notification to a second Pi with a database to log if the job was completed
@@ -10,7 +11,7 @@ I am working on some optional extras but they are not integrated into the main s
 * Incorporate a water barrel with level detection and auto-filling
 * Use SmartThings API to control a smart plug connected to the solenoid valve, rather than putting a raspberry pi and relay outside
 
-Note: This project is not affiliated with the company Fifth Season which was founded as RoBotany Ltd. It is also not related to several other projects on Github with the repositary name Robotany.
+*Note: This project is not affiliated with the company, `Fifth Season` which was founded as `RoBotany Ltd.` It is also not related to several other projects on Github with the repository name, `Robotany`.*
 
 ## Parts
 
@@ -49,29 +50,38 @@ Note: This project is not affiliated with the company Fifth Season which was fou
 ## Important steps
 
 ### Install Raspian onto SD Card
-1. Dowload Raspberry Pi Imager from https://www.raspberrypi.org/downloads/
+
+1. Download Raspberry Pi Imager from https://www.raspberrypi.org/downloads/
 2. Launch Raspberry Pi Imager and follow instructions to install Raspian on an SD card
 
 ### Set up Raspberry Pi Zero W
-Install SD card with Raspian into Pi, connect mouse, keyboard and monitor and power. Follow instructions to select language, keyboard layout and timezone.
+
+1. Install SD card with Raspian into Pi
+2. Connect mouse, keyboard, monitor, and power. 
+3. Follow instructions to select language, keyboard layout, and timezone.
 
 ### Set Static IP Address
-Note: I still haven't got this to work yet, Was folllowing a combination of instructions from these two links:
-https://www.raspberrypi.org/forums/viewtopic.php?p=1500626
-https://howtoraspberrypi.com/how-to-raspberry-pi-headless-setup/
+
+Note: I still haven't got this to work yet, Was following a combination of instructions from these two links:
+- https://www.raspberrypi.org/forums/viewtopic.php?p=1500626
+- https://howtoraspberrypi.com/how-to-raspberry-pi-headless-setup/
 
 ### Enable VNC server
+
 1. Open command prompt
 2. Type **sudo raspi-config**
 3. Go to "Interfacing Options" then "VNC" and select the option to enable the VNC server.
 4. Exit the configuration menu
 
 ### Connect to VNC Server
+
 1. Obtain IP address from Raspberry Pi by typing **ifconfig wlan0** (or **ifconfig eth0** if connected to the network via ethernet).
 2. Install a VNC client on your other device and use the IP address from above, username and password. (Default username = pi, password = raspberry). A VNC viewer can be dowloaded from here: https://www.realvnc.com/en/connect/download/viewer/
 
 ### Decide which pins to use
-Type **pinout** in a terminal window to get a handy diagram. You'll need:
+
+Type `pinout` in a terminal window to get a handy diagram. You'll need:
+
 * A 3.3V pin
 * A ground pin
 * Any other GPIO pin for the signal to the relay
@@ -79,28 +89,34 @@ Type **pinout** in a terminal window to get a handy diagram. You'll need:
 Read https://www.raspberrypi.org/documentation/usage/gpio for more information about pins.
 
 ### Install required packages
+
 From the command line run the following commands to install the packages required:
 
-sudo apt-get update
-sudo apt-get install rpi.gpio
+1. `sudo apt-get update`
+2. `sudo apt-get install rpi.gpio`
 
 ### Write/Install Python Code to Control Relay
+
 You can use RobotanyMain.py - it is ready to go, or you can write your own.
-At a minimum the script should contain these commands (in this example I used pin 8):
+At a minimum, the script should contain these commands (in this example I used pin 8):
 
 Set up the pin:
+
 * import RPi.GPIO as GPIO
 * GPIO.setmode(GPIO.BOARD)
 * GPIO.setup(8, GPIO.OUT)
 
 Turn pin on and off:
+
 * GPIO.output(8, True)
 * GPIO.output(8, False)
 
 ### Set up Pi to Run Script on Bootup
-Haven't figured out how to do this yet.
+
+*Haven't figured out how to do this yet.*
 
 ### Install Components and Wiring in Project Enclosure
+
 _Make sure everything is powered down including 12V power supply before doing this step!_
 
 1) Use jumper cables to hook up the Raspberry Pi pins to the Relay Module terminals
@@ -128,4 +144,5 @@ Diagram to follow. Refer to https://www.circuitbasics.com/setting-up-a-5V-relay-
 11) Fit solenoind valve and water hammer arrestor directly downsteam of it.
 
 ### Connect Solenoid Valve and Water Hammer Arrestor to Garden Faucet/Hose System
+
 You'll probably need a trip to your favourite hardware store to find the right combination of adaptors and fittings. It's not pretty!
