@@ -2,6 +2,10 @@
 
 Automated Garden Watering System. The basic system just waters the garden once per day on a schedule and all the code is stored in `RobotanyMain.py`.
 
+## Optional features developed so far:
+* Send push notifications to your cellphone using Apprise
+* Run a Chronjob on the Pi
+
 ## Optional features that are not integrated into the main script yet:
 
 * Query the weather API to see if it is going to rain
