@@ -7,7 +7,7 @@ Automated Garden Watering System. The basic system just waters the garden once p
 ## Core Features
 
 * [Basic Raspberry Pi setup](BasicPiSetup.md)
-* Control solenoid valve
+* [Control solenoid valve](SolenoidValve.md)
 * Install Pi in waterproof enclosure
 
 ## Optional features developed so far:
@@ -32,20 +32,7 @@ Automated Garden Watering System. The basic system just waters the garden once p
 * Raspberry Pi Zero W
 <img src = "images/rpi_zero.jpg" width = 200>
 
-* SRD-03VDC-SL-C 3V relay board or equivalent
-<img src = "images/relays.jpg" width = 200>
 
-* 12V solenoid water valve
-<img src = "images/solenoid_water_valve.jpg" width = 200>
-
-* Water hammer arrestor
-<img src = "images/water_hammer_arrestor.jpg" width = 200>
-
-* 12V Power supply
-<img src = "images/12v_power_supply.jpg" width = 200>
-
-* Length of cable suitable for carrying 12V from where the pi will be located to the solendoid valve
-<img src = "images/12v_cable.jpg" width = 200>
 
 * Weather resistant mains power outlet with at least two outlets
 <img src = "images/power_outlet.jpg" width = 200>
@@ -59,44 +46,9 @@ Automated Garden Watering System. The basic system just waters the garden once p
 * Outdoor weatherproof Enclosure
 <img src = "images/enclosure.jpg" width = 200>
 
-* Fittings to connect solenoid valve and water hammer arrestor to your garden faucet and hospipe.
+
 
 ## Important steps
-
-
-
-### Decide which pins to use
-
-Type `pinout` in a terminal window to get a handy diagram. You'll need:
-
-* A 3.3V pin
-* A ground pin
-* Any other GPIO pin for the signal to the relay
-
-Read https://www.raspberrypi.org/documentation/usage/gpio for more information about pins.
-
-### Install required packages
-
-From the command line run the following commands to install the packages required:
-
-1. `sudo apt-get update`
-2. `sudo apt-get install rpi.gpio`
-
-### Write/Install Python Code to Control Relay
-
-You can use RobotanyMain.py - it is ready to go, or you can write your own.
-At a minimum, the script should contain these commands (in this example I used pin 8):
-
-Set up the pin:
-
-* `import RPi.GPIO as GPIO`
-* `GPIO.setmode(GPIO.BOARD)`
-* `GPIO.setup(8, GPIO.OUT)`
-
-Turn pin on and off:
-
-* `GPIO.output(8, True)`
-* `GPIO.output(8, False)`
 
 ### Install Components and Wiring in Project Enclosure
 
@@ -125,7 +77,3 @@ Diagram to follow. Refer to https://www.circuitbasics.com/setting-up-a-5V-relay-
 9) Seal up the holes in the project box using grommets if you are fancy, or silicone sealant if you are not.
 10) Mount box to wall and close
 11) Fit solenoind valve and water hammer arrestor directly downsteam of it.
-
-### Connect Solenoid Valve and Water Hammer Arrestor to Garden Faucet/Hose System
-
-You'll probably need a trip to your favourite hardware store to find the right combination of adaptors and fittings. It's not pretty!
