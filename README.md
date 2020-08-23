@@ -2,7 +2,7 @@
 
 Automated Garden Watering System. The basic system just waters the garden once per day on a schedule using water from the faucet. All the code for this is stored in `code/RobotanyMain.py`.
 
-The fancier system still under development harvests rain water in barrels and uses that to feed a pump to water the garden. The faucet is used to top off the barrels if they get too low.
+The fancier system still under development harvests rain water in barrels and uses that to feed a pump to water the garden. The faucet is used to top up the barrels if they get too low.
 
 *Note: This project is not affiliated with the company, `Fifth Season` which was founded as `RoBotany Ltd.` It is also not related to several other projects on Github with the repository name, `Robotany`.*
 
