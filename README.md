@@ -6,7 +6,7 @@ Automated Garden Watering System. The basic system just waters the garden once p
 
 * [Add a level sensor to your water barrel](BarrelLevel.md)
 * [Add a flow sensor to measure water usage](FlowSensor.md)
-* Query the weather API to see if it is going to rain
+* [Query the weather API to see if it is going to rain](weatherAPI.md)
 * Run a Chronjob on the Pi
 * Send push notifications to your cellphone using Apprise
 
