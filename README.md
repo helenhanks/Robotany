@@ -1,6 +1,6 @@
 # Robotany
 
-Automated Garden Watering System. The basic system just waters the garden once per day on a schedule and all the code is stored in `code/RobotanyMain.py`.
+Automated Garden Watering System. The basic system just waters the garden once per day on a schedule using water from the faucet. All the code for this is stored in `code/RobotanyMain.py`.
 
 *Note: This project is not affiliated with the company, `Fifth Season` which was founded as `RoBotany Ltd.` It is also not related to several other projects on Github with the repository name, `Robotany`.*
 
