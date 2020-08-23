@@ -5,7 +5,7 @@ import RPi.GPIO as GPIO
 level_pin_number = 8
 
 
-#Set up pin for swithing relay and make sure it is off
+#Set up pin for input
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(level_pin_number, GPIO.IN)
 
