@@ -1,3 +1,5 @@
+[Return to Readme](README.md)
+
 ### Useful Links
 #### Smart Things API Documentation
 https://docs.smartthings.com/en/latest/
@@ -39,3 +41,5 @@ headers = {
 }
 
 response = requests.put('https://graph-na04-useast2.api.smartthings.com/api/smartapps/installations/_api-endpoint_/switches/off', headers=headers)
+
+[Return to Readme](README.md)
