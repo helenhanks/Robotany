@@ -2,6 +2,8 @@
 
 # Setting up a New Raspberry Pi
 
+These instructions tell you how to set up a brand new Raspberry Pi Zero for the first time and install the Raspian operating system.
+
 ## Parts
 
 * Raspberry Pi Zero W
@@ -16,7 +18,7 @@
 
 ### Set up Raspberry Pi Zero W
 
-1. Install SD card with Raspian into Pi
+1. Insert SD card with Raspian into Raspberry Pi
 2. Connect mouse, keyboard, monitor, and power. 
 3. Follow instructions to select language, keyboard layout, and timezone.
 
