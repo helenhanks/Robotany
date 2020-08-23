@@ -5,6 +5,7 @@ Automated Garden Watering System. The basic system just waters the garden once p
 ## Optional features developed so far:
 * Send push notifications to your cellphone using Apprise
 * Run a Chronjob on the Pi
+* [Add a level sensor to your water barrel](BarrelLevel.md)
 
 ## Optional features that are not integrated into the main script yet:
 
