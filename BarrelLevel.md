@@ -1,3 +1,5 @@
+[Returnt to Readme](README.md)
+
 # Adding a Level Sensor to your Barrel
 One optional feature is to install a water level detector on the water barrel. This allows such possibilities as: 
 * Automatically topping up the barrel if the level gets low
@@ -35,5 +37,5 @@ To read in the value:
 ```
 GPIO.input(level_pin_number)
 ```
-
+[Returnt to Readme](README.md)
 
