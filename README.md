@@ -2,6 +2,8 @@
 
 Automated Garden Watering System. The basic system just waters the garden once per day on a schedule and all the code is stored in `code/RobotanyMain.py`.
 
+*Note: This project is not affiliated with the company, `Fifth Season` which was founded as `RoBotany Ltd.` It is also not related to several other projects on Github with the repository name, `Robotany`.*
+
 ## Optional features developed so far:
 
 * [Add a contact level sensor to your water barrel](BarrelLevel.md)
@@ -18,8 +20,6 @@ Automated Garden Watering System. The basic system just waters the garden once p
 * Build a weather station so see if it did in fact rain during the previous day
 * Incorporate a water barrel with level detection and auto-filling
 * [Use SmartThings API to control a smart plug connected to the solenoid valve, rather than putting a raspberry pi and relay outside](SmartThings.md)
-
-*Note: This project is not affiliated with the company, `Fifth Season` which was founded as `RoBotany Ltd.` It is also not related to several other projects on Github with the repository name, `Robotany`.*
 
 ## Parts
 
