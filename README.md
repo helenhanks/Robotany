@@ -107,14 +107,14 @@ At a minimum, the script should contain these commands (in this example I used p
 
 Set up the pin:
 
-`import RPi.GPIO as GPIO`
-`GPIO.setmode(GPIO.BOARD)`
-`GPIO.setup(8, GPIO.OUT)`
+* `import RPi.GPIO as GPIO`
+* `GPIO.setmode(GPIO.BOARD)`
+* `GPIO.setup(8, GPIO.OUT)`
 
 Turn pin on and off:
 
-`GPIO.output(8, True)`
-`GPIO.output(8, False)`
+* `GPIO.output(8, True)`
+* `GPIO.output(8, False)`
 
 ### Give Pi a Recognisable Name to Find it Easily on the Network
 
@@ -122,8 +122,9 @@ Turn pin on and off:
 2. Choose '2. Network Options'
 3. Choose 'N1 Hostname'
 4. Choose 'OK'
-5. Type in Hostname you want and choose 'Confirm'
-6. You may be prompted to restart your Pi.
+5. Type in Hostname you want and choose 'OK'
+6. Choose 'Finish'
+7. You may be prompted to restart your Pi.
 
 
 ### Install Components and Wiring in Project Enclosure
