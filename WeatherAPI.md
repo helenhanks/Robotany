@@ -19,7 +19,7 @@ Before crafting your query, you need to determine the coordinates of where your 
 
 ### Find your endpoint
 
-Your endpoint is `https://api.weather.gov/gridpoints/HGX/{gridX},{gridY}/forecast/hourly`, which the values for your `gridX` and `gridY` substituted in. 
+Your endpoint is `https://api.weather.gov/gridpoints/HGX/{gridX},{gridY}/forecast/hourly`, with the values for your `gridX` and `gridY` substituted in. 
 If you navigate to this address in a browser, you will be able to look at the JSON data returned.
 
 ### Run your query
