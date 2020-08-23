@@ -1,4 +1,4 @@
-[Returnt to Readme](README.md)
+[Return to Readme](README.md)
 # Adding a Flow Sensor to the System
 
 This will allow you to measure water usage in the system. For my part, I am measuring the amount of water from the mains used to top off my water barrels when they get low.
@@ -11,4 +11,4 @@ This will allow you to measure water usage in the system. For my part, I am meas
 ## Important Steps
 TBD
 
-[Returnt to Readme](README.md)
+[Return to Readme](README.md)
