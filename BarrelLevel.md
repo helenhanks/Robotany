@@ -24,12 +24,12 @@ You can use RobotanyLevel.py - it is ready to go, or you can write your own.
 At a minimum, the script should contain these commands (in this example I used pin 8):
 
 Set up the pin:
-* level_pin_number = 8
-* import RPi.GPIO as GPIO
-* GPIO.setmode(GPIO.BOARD)
-* GPIO.setup(level_pin_number, GPIO.IN)
+  level_pin_number = 8
+  import RPi.GPIO as GPIO
+  GPIO.setmode(GPIO.BOARD)
+  GPIO.setup(level_pin_number, GPIO.IN)
 
 To read in the value:
-* GPIO.input(level_pin_number)
+  GPIO.input(level_pin_number)
 
 
