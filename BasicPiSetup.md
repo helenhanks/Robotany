@@ -44,4 +44,11 @@ These instructions tell you how to set up a brand new Raspberry Pi Zero for the 
 1. Install a VNC client on your other device and use the hostname from above, username and password. (Default username = pi, password = raspberry). A VNC viewer can be dowloaded from here: https://www.realvnc.com/en/connect/download/viewer/
 2. Alternatively, you can obtain the IP address from Raspberry Pi by typing **ifconfig wlan0** (or **ifconfig eth0** if connected to the network via ethernet).
 
+### Install required packages
+
+From the command line run the following commands to install the packages required:
+
+1. `sudo apt-get update`
+2. `sudo apt-get install rpi.gpio`
+
 [Return to Readme](README.md)
