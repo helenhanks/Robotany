@@ -4,7 +4,7 @@ Automated Garden Watering System. The basic system just waters the garden once p
 
 ## Optional features developed so far:
 
-* [Add a level sensor to your water barrel](BarrelLevel.md)
+* [Add a contact level sensor to your water barrel](BarrelLevel.md)
 * [Add a flow sensor to measure water usage](FlowSensor.md)
 * [Query the weather API to see if it is going to rain](weatherAPI.md)
 * Run a Chronjob on the Pi
@@ -12,6 +12,7 @@ Automated Garden Watering System. The basic system just waters the garden once p
 
 ## Optional features not developed yet:
 
+* Add a radar level sensor to your water barrel
 * Send a push notification to a second Pi with a database to log if the job was completed
 * Create a "watchdog" application to make sure the Pi Zero is always running and connected
 * Build a weather station so see if it did in fact rain during the previous day
