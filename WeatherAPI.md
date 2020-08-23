@@ -1,4 +1,4 @@
-[Returnt to Readme](README.md)
+[Return to Readme](README.md)
 
 # Query a Weather Service
 You can access the API of the weather.gov service to see if it is going to rain later in the day. 
@@ -25,4 +25,4 @@ If you navigate to this address in a browser, you will be able to look at the JS
 ### Run your query
 The script required to run the query is stored in `code/weatherAPI.py`. Just substitute in your own grid numbers.
 
-[Returnt to Readme](README.md)
+[Return to Readme](README.md)
