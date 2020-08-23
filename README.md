@@ -6,7 +6,7 @@ Automated Garden Watering System. The basic system just waters the garden once p
 
 ## Core Features
 
-* Basic Raspberry Pi setup
+* [Basic Raspberry Pi setup](BasicPiSetup.md)
 * Control solenoid valve
 * Install Pi in waterproof enclosure
 
