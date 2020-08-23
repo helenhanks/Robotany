@@ -63,34 +63,7 @@ Automated Garden Watering System. The basic system just waters the garden once p
 
 ## Important steps
 
-### Install Raspian onto SD Card
 
-1. Download Raspberry Pi Imager from https://www.raspberrypi.org/downloads/
-2. Launch Raspberry Pi Imager and follow instructions to install Raspian on an SD card
-
-### Set up Raspberry Pi Zero W
-
-1. Install SD card with Raspian into Pi
-2. Connect mouse, keyboard, monitor, and power. 
-3. Follow instructions to select language, keyboard layout, and timezone.
-
-### Set Static IP Address
-
-Note: I still haven't got this to work yet, Was following a combination of instructions from these two links:
-- https://www.raspberrypi.org/forums/viewtopic.php?p=1500626
-- https://howtoraspberrypi.com/how-to-raspberry-pi-headless-setup/
-
-### Enable VNC server
-
-1. Open command prompt
-2. Type `sudo raspi-config`
-3. Go to "Interfacing Options" then "VNC" and select the option to enable the VNC server.
-4. Exit the configuration menu
-
-### Connect to VNC Server
-
-1. Obtain IP address from Raspberry Pi by typing **ifconfig wlan0** (or **ifconfig eth0** if connected to the network via ethernet).
-2. Install a VNC client on your other device and use the IP address from above, username and password. (Default username = pi, password = raspberry). A VNC viewer can be dowloaded from here: https://www.realvnc.com/en/connect/download/viewer/
 
 ### Decide which pins to use
 
@@ -124,17 +97,6 @@ Turn pin on and off:
 
 * `GPIO.output(8, True)`
 * `GPIO.output(8, False)`
-
-### Give Pi a Recognisable Name to Find it Easily on the Network
-
-1. Use `sudo raspi-config` to change the settings of the pi.
-2. Choose '2. Network Options'
-3. Choose 'N1 Hostname'
-4. Choose 'OK'
-5. Type in Hostname you want and choose 'OK'
-6. Choose 'Finish'
-7. You may be prompted to restart your Pi.
-
 
 ### Install Components and Wiring in Project Enclosure
 
