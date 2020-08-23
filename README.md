@@ -4,6 +4,12 @@ Automated Garden Watering System. The basic system just waters the garden once p
 
 *Note: This project is not affiliated with the company, `Fifth Season` which was founded as `RoBotany Ltd.` It is also not related to several other projects on Github with the repository name, `Robotany`.*
 
+## Core Features
+
+* Basic Raspberry Pi setup
+* Control solenoid valve
+* Install Pi in waterproof enclosure
+
 ## Optional features developed so far:
 
 * [Add a contact level sensor to your water barrel](BarrelLevel.md)
