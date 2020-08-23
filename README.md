@@ -1,15 +1,17 @@
 # Robotany
 
-Automated Garden Watering System. The basic system just waters the garden once per day on a schedule and all the code is stored in `RobotanyMain.py`.
+Automated Garden Watering System. The basic system just waters the garden once per day on a schedule and all the code is stored in `code/RobotanyMain.py`.
 
 ## Optional features developed so far:
-* Send push notifications to your cellphone using Apprise
-* Run a Chronjob on the Pi
+
 * [Add a level sensor to your water barrel](BarrelLevel.md)
-
-## Optional features that are not integrated into the main script yet:
-
+* [Add a flow sensor to measure water usage](FlowSensor.md)
 * Query the weather API to see if it is going to rain
+* Run a Chronjob on the Pi
+* Send push notifications to your cellphone using Apprise
+
+## Optional features not developed yet:
+
 * Send a push notification to a second Pi with a database to log if the job was completed
 * Create a "watchdog" application to make sure the Pi Zero is always running and connected
 * Build a weather station so see if it did in fact rain during the previous day
