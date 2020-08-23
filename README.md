@@ -74,7 +74,7 @@ Note: I still haven't got this to work yet, Was following a combination of instr
 ### Enable VNC server
 
 1. Open command prompt
-2. Type **sudo raspi-config**
+2. Type `sudo raspi-config`
 3. Go to "Interfacing Options" then "VNC" and select the option to enable the VNC server.
 4. Exit the configuration menu
 
@@ -107,18 +107,24 @@ At a minimum, the script should contain these commands (in this example I used p
 
 Set up the pin:
 
-* import RPi.GPIO as GPIO
-* GPIO.setmode(GPIO.BOARD)
-* GPIO.setup(8, GPIO.OUT)
+`import RPi.GPIO as GPIO`
+`GPIO.setmode(GPIO.BOARD)`
+`GPIO.setup(8, GPIO.OUT)`
 
 Turn pin on and off:
 
-* GPIO.output(8, True)
-* GPIO.output(8, False)
+`GPIO.output(8, True)`
+`GPIO.output(8, False)`
 
-### Set up Pi to Run Script on Bootup
+### Give Pi a Recognisable Name to Find it Easily on the Network
 
-*Haven't figured out how to do this yet.*
+1. Use `sudo raspi-config` to change the settings of the pi.
+2. Choose '2. Network Options'
+3. Choose 'N1 Hostname'
+4. Choose 'OK'
+5. Type in Hostname you want and choose 'Confirm'
+6. You may be prompted to restart your Pi.
+
 
 ### Install Components and Wiring in Project Enclosure
 
