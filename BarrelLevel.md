@@ -22,7 +22,7 @@ Using a CQRobot water level contact sensor:
 * Attach OUT to any GPIO pin
 
 ### Writing Python Code to Read Sensor
-You can use RobotanyLevel.py - it is ready to go, or you can write your own.
+You can use RobotanyBarrelLevel.py - it is ready to go, or you can write your own.
 At a minimum, the script should contain these commands (in this example I used pin 8):
 
 Set up the pin:
