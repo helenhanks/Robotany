@@ -7,7 +7,6 @@ Samsung SmartThings is a service that lets you add most home smart devices to it
 2. Set up an account
 3. Add smart device and set up location
 
-
 ## Creating a Webapp and API
 Once you have set up a "device" in a "location", you can create a webapp with an API by following the tutorial here: https://docs.smartthings.com/en/latest/smartapp-web-services-developers-guide/tutorial-part1.html
 
@@ -19,10 +18,10 @@ A few hints:
 ## Using OAuth to Generate a Token and Endpoint
 OAuth is a series of steps you have to go through to generate a token and find out your endpoint. Basically it goes like this:
 
-* Navigate to a speciic URL with your client ID and redirect URI in the headers and request a code by logging into SmartThings and authorising access to the app.
-* Use the code to go to another URL and request an access token
-* Use this access token to go to yet another URL to request an endpoint
-* Use the token and endpoint to build your command to switch your devices on and off
+1. Navigate to a speciic URL with your client ID and redirect URI in the headers and request a code by logging into SmartThings and authorising access to the app.
+2. Use the code to go to another URL and request an access token
+3. Use this access token to go to yet another URL to request an endpoint
+4. Use the token and endpoint to build your command to switch your devices on and off
 
 I have written a script that automates nearly all of this. The only manuel bit is the first step which must be done in a web browser. The script is in code/SmartThingsOAuth.py.
 
@@ -33,13 +32,6 @@ https://docs.smartthings.com/en/latest/
 https://docs.smartthings.com/en/latest/smartapp-web-services-developers-guide/tutorial-part1.html
 #### Utility to convert from curl to python
 https://curl.trillworks.com/
-
-## Set up Smart Things Account and Develop APP
-1. Go to https://account.smartthings.com/
-2. Set up an account
-3. Add smart device and set up location
-4. Go to My Smart Apps and make a web app
-5. Use endpoint, token, oath etc to send commands from whatever script to your new app's API
 
 ## Command line code
 #### Turn on
