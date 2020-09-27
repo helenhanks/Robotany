@@ -45,15 +45,19 @@ https://curl.trillworks.com/
 #### Turn on
 ```
 import requests
-headers = {'Authorization': 'Bearer <api token>',}
-response = requests.put('https://graph-na04-useast2.api.smartthings.com/api/smartapps/installations/_api-endpoint_/switches/on', headers=headers)
+token = 'insert token here'
+endpoint = 'insert endpoint here'
+headers = {'Authorization': 'Bearer ' + token,}
+response = requests.put(endpoint + '/switches/on', headers=headers)
 ```
   
 #### Turn Off
 ```
 import requests
-headers = {'Authorization': 'Bearer _api-token_',}
-response = requests.put('https://graph-na04-useast2.api.smartthings.com/api/smartapps/installations/_api-endpoint_/switches/off', headers=headers)
+token = 'insert token here'
+endpoint = 'insert endpoint here'
+headers = {'Authorization': 'Bearer ' + token,}
+response = requests.put(endpoint + '/switches/off', headers=headers)
 ```
 
 [Return to Readme](README.md)
