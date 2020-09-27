@@ -23,7 +23,7 @@ OAuth is a series of steps you have to go through to generate a token and find o
 3. Use this access token to go to yet another URL to request an endpoint
 4. Use the token and endpoint to build your command to switch your devices on and off
 
-I have written a script that automates nearly all of this. The only manuel bit is the first step which must be done in a web browser. The script is in code/SmartThingsOAuth.py.
+I have written a script that automates nearly all of this. The only manuel bit is the first step which must be done in a web browser. The script is in `code/SmartThingsOAuth.py`.
 
 ### Useful Links
 #### Smart Things API Documentation
@@ -35,25 +35,25 @@ https://curl.trillworks.com/
 
 ## Command line code
 #### Turn on
-curl -H "Authorization: Bearer _api-token_" -X PUT "_api-endpoint_/switches/on"
+`curl -H "Authorization: Bearer _api-token_" -X PUT "_api-endpoint_/switches/on"`
 
 #### Turn off
-curl -H "Authorization: Bearer _api-token_" -X PUT "_api-endpoint_/switches/off"
+`curl -H "Authorization: Bearer _api-token_" -X PUT "_api-endpoint_/switches/off"`
   
 ## Python Code 
-(note: Markdown messes up the formating, check raw code)
+
 #### Turn on
-import requests
+`import requests
 
 headers = {'Authorization': 'Bearer <api token>',}
 
-response = requests.put('https://graph-na04-useast2.api.smartthings.com/api/smartapps/installations/_api-endpoint_/switches/on', headers=headers)
+response = requests.put('https://graph-na04-useast2.api.smartthings.com/api/smartapps/installations/_api-endpoint_/switches/on', headers=headers)`
   
 #### Turn Off
-import requests
+`import requests
 
 headers = {'Authorization': 'Bearer _api-token_',}
 
-response = requests.put('https://graph-na04-useast2.api.smartthings.com/api/smartapps/installations/_api-endpoint_/switches/off', headers=headers)
+response = requests.put('https://graph-na04-useast2.api.smartthings.com/api/smartapps/installations/_api-endpoint_/switches/off', headers=headers)`
 
 [Return to Readme](README.md)
